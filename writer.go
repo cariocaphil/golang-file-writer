@@ -10,4 +10,5 @@ type product struct {
 func main() {
 	createdProduct := getProductInput()
 	printData(createdProduct)
+	storeData(createdProduct)
 }
